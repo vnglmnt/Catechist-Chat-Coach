@@ -1,0 +1,25 @@
+catechist-chatcoach/
+├── netlify.toml
+├── package.json
+├── .gitignore
+├── frontend/
+│   ├── package.json
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   └── manifest.json
+│   └── src/
+│       ├── App.jsx
+│       ├── App.css
+│       ├── index.jsx
+│       ├── index.css
+│       └── components/
+│           ├── ChatInterface.jsx
+│           ├── LessonPlanGenerator.jsx
+│           ├── QASupport.jsx
+│           └── Navigation.jsx
+└── backend/
+    ├── package.json
+    ├── server.js
+    └── services/
+        └── ai-service.js
